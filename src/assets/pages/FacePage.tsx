@@ -8,8 +8,9 @@ export default function FacePage() {
   const array = range(15)
   return (
     <>
-      {array.map(() => (
+      {array.map((_, index) => (
         <Face
+          key={index}
           width={width}
           height={height}
           centerX={width / 2}
