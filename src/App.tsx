@@ -1,3 +1,5 @@
+import FacePage from "./assets/pages/FacePage"
+
 export default function App() {
-  return <div>App</div>
+  return <FacePage />
 }
